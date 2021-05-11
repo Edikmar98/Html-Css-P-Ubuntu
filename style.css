@@ -1,0 +1,42 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;}
+html {font-size: 62,5%;}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+.header__lista {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+}
+
+.header__lista a {
+margin: 0 10px;
+color:darkblue;
+text-decoration: none;
+cursor: pointer;    /* mano al pasar por encima de los a */
+}
+
+.header__icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png"); /* "" agregadas */
+    background-repeat: no-repeat; 
+    background-position: center;  /* Centra en el contenedor */
+    background-size: contain;   /* Adaptación auto,uniforme al contenedor */
+    width: 25px;
+    height: 25px;
+}
+.header__lista img {
+    border-radius: 50%; 
+    margin-left: 10px;     /* Icono estaba muy cercano a la cuenta*/
+} 
+
+
